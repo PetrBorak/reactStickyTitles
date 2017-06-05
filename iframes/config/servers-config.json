@@ -1,0 +1,28 @@
+{
+  "key": {
+    "htmlTemplate": {
+      "vars": {
+
+      },
+      "name": "key"
+    },
+    "serverTemplates": {
+      "serverName": "key-server",
+      "urlPort":"127.0.0.1:8866",
+      "template": "key"
+    }
+  },
+  "download": {
+    "htmlTemplate": {
+      "vars": {
+
+      },
+      "name": "download"
+    },
+    "serverTemplates": {
+      "urlPort":"127.0.0.1:8877",
+      "template": "download",
+      "serverName": "download-server"
+    }
+  }
+}
